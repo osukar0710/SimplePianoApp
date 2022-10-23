@@ -17,7 +17,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="rpU-XJ-MeI">
-                                <rect key="frame" x="89" y="68.333333333333329" width="675.33333333333337" height="253.33333333333337"/>
+                                <rect key="frame" x="89" y="68.333333333333329" width="675" height="253.33333333333337"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" spacing="14" translatesAutoresizingMaskIntoConstraints="NO" id="te5-95-ixq">
                                         <rect key="frame" x="15" y="24" width="641.33333333333337" height="228"/>
@@ -27,8 +27,12 @@
                                                 <subviews>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Rjk-hU-lu0">
                                                         <rect key="frame" x="0.0" y="0.0" width="80" height="228"/>
+                                                        <color key="tintColor" systemColor="labelColor"/>
                                                         <state key="normal" title="Button"/>
                                                         <buttonConfiguration key="configuration" style="plain" title="ド"/>
+                                                        <connections>
+                                                            <action selector="soundKeybutton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ODB-Io-V7n"/>
+                                                        </connections>
                                                     </button>
                                                 </subviews>
                                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -44,8 +48,12 @@
                                                 <subviews>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LRJ-6L-NnE">
                                                         <rect key="frame" x="0.0" y="0.0" width="80" height="228"/>
+                                                        <color key="tintColor" systemColor="labelColor"/>
                                                         <state key="normal" title="Button"/>
                                                         <buttonConfiguration key="configuration" style="plain" title="レ"/>
+                                                        <connections>
+                                                            <action selector="soundKeybutton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="pLY-vX-KlZ"/>
+                                                        </connections>
                                                     </button>
                                                 </subviews>
                                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -61,8 +69,12 @@
                                                 <subviews>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="teU-hQ-8jD" userLabel="ミ">
                                                         <rect key="frame" x="0.0" y="0.0" width="80" height="228"/>
+                                                        <color key="tintColor" systemColor="labelColor"/>
                                                         <state key="normal" title="Button"/>
                                                         <buttonConfiguration key="configuration" style="plain" title="ミ"/>
+                                                        <connections>
+                                                            <action selector="soundKeybutton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="qjR-ac-W9e"/>
+                                                        </connections>
                                                     </button>
                                                 </subviews>
                                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -78,8 +90,12 @@
                                                 <subviews>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QVz-YN-rEN" userLabel="ファ">
                                                         <rect key="frame" x="0.0" y="0.0" width="80" height="228"/>
+                                                        <color key="tintColor" systemColor="labelColor"/>
                                                         <state key="normal" title="Button"/>
                                                         <buttonConfiguration key="configuration" style="plain" title="ファ"/>
+                                                        <connections>
+                                                            <action selector="soundKeybutton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="7o0-Gc-tur"/>
+                                                        </connections>
                                                     </button>
                                                 </subviews>
                                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -95,8 +111,12 @@
                                                 <subviews>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eMi-SL-mOf" userLabel="ソ">
                                                         <rect key="frame" x="0.0" y="0.0" width="80" height="228"/>
+                                                        <color key="tintColor" systemColor="labelColor"/>
                                                         <state key="normal" title="Button"/>
                                                         <buttonConfiguration key="configuration" style="plain" title="ソ"/>
+                                                        <connections>
+                                                            <action selector="soundKeybutton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="j8n-6e-Y1E"/>
+                                                        </connections>
                                                     </button>
                                                 </subviews>
                                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -112,8 +132,12 @@
                                                 <subviews>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ms4-2k-cca" userLabel="ラ">
                                                         <rect key="frame" x="0.0" y="0.0" width="77.333333333333329" height="228"/>
+                                                        <color key="tintColor" systemColor="labelColor"/>
                                                         <state key="normal" title="Button"/>
                                                         <buttonConfiguration key="configuration" style="plain" title="ラ"/>
+                                                        <connections>
+                                                            <action selector="soundKeybutton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="rmU-wa-XhI"/>
+                                                        </connections>
                                                     </button>
                                                 </subviews>
                                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -129,8 +153,12 @@
                                                 <subviews>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="I03-CL-yWK" userLabel="シ">
                                                         <rect key="frame" x="0.0" y="0.0" width="80" height="228"/>
+                                                        <color key="tintColor" systemColor="labelColor"/>
                                                         <state key="normal" title="Button"/>
                                                         <buttonConfiguration key="configuration" style="plain" title="シ"/>
+                                                        <connections>
+                                                            <action selector="soundKeybutton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="QEr-yd-xdr"/>
+                                                        </connections>
                                                     </button>
                                                 </subviews>
                                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -166,7 +194,9 @@
                         <constraints>
                             <constraint firstItem="rpU-XJ-MeI" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" multiplier="0.8" id="20D-0N-ZAV"/>
                             <constraint firstItem="rpU-XJ-MeI" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="2b2-Nn-jTp"/>
+                            <constraint firstItem="rpU-XJ-MeI" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="RtX-fd-0Ug"/>
                             <constraint firstItem="rpU-XJ-MeI" firstAttribute="height" secondItem="8bC-Xf-vdC" secondAttribute="height" multiplier="0.65" id="Ryi-us-gsV"/>
+                            <constraint firstItem="rpU-XJ-MeI" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="WY1-v0-WsY"/>
                             <constraint firstItem="rpU-XJ-MeI" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="89" id="v71-Jq-ZkB"/>
                         </constraints>
                     </view>
@@ -177,6 +207,9 @@
         </scene>
     </scenes>
     <resources>
+        <systemColor name="labelColor">
+            <color red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
         <systemColor name="secondaryLabelColor">
             <color red="0.23529411764705882" green="0.23529411764705882" blue="0.2627450980392157" alpha="0.59999999999999998" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>

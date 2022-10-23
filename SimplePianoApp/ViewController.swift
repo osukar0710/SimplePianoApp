@@ -6,47 +6,31 @@
 //
 
 import UIKit
+import AVFoundation
 
 class ViewController: UIViewController {
+    
+    var player: AVAudioPlayer?
 
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
     }
 
-
-}
-
-extension UIView {
-
-    // 枠線の色
-    @IBInspectable var borderColor: UIColor? {
-        get {
-            return layer.borderColor.map { UIColor(cgColor: $0) }
-        }
-        set {
-            layer.borderColor = newValue?.cgColor
-        }
+//キーボード再生
+    @IBAction func soundKeybutton(_ sender: UIButton) {
+        print("③===============")
+        print(sender.titleLabel!.text ?? "nil")
+        
+        playSound(soundName: sender.titleLabel!.text ?? "nil")
     }
-
-    // 枠線のWidth
-    @IBInspectable var borderWidth: CGFloat {
-        get {
-            return layer.borderWidth
-        }
-        set {
-            layer.borderWidth = newValue
-        }
-    }
-
-    // 角丸設定
-    @IBInspectable var cornerRadius: CGFloat {
-        get {
-            return layer.cornerRadius
-        }
-        set {
-            layer.cornerRadius = newValue
-            layer.masksToBounds = newValue > 0
-        }
+    
+    func playSound(soundName: String) {
+        let url = Bundle.main.url(forResource: soundName, withExtension: "wav")
+        player = try! AVAudioPlayer(contentsOf: url!)
+        player?.play()
+                
     }
 }
+
+

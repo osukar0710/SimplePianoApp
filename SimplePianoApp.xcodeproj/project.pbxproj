@@ -16,6 +16,13 @@
 		3B6CB0B529051638008648E0 /* SimplePianoAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B6CB0B429051638008648E0 /* SimplePianoAppTests.swift */; };
 		3B6CB0BF29051638008648E0 /* SimplePianoAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B6CB0BE29051638008648E0 /* SimplePianoAppUITests.swift */; };
 		3B6CB0C129051638008648E0 /* SimplePianoAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B6CB0C029051638008648E0 /* SimplePianoAppUITestsLaunchTests.swift */; };
+		3B6CB10329054437008648E0 /* ソ.wav in Resources */ = {isa = PBXBuildFile; fileRef = 3B6CB0FC29054437008648E0 /* ソ.wav */; };
+		3B6CB10429054437008648E0 /* シ.wav in Resources */ = {isa = PBXBuildFile; fileRef = 3B6CB0FD29054437008648E0 /* シ.wav */; };
+		3B6CB10529054437008648E0 /* ド.wav in Resources */ = {isa = PBXBuildFile; fileRef = 3B6CB0FE29054437008648E0 /* ド.wav */; };
+		3B6CB10629054437008648E0 /* ファ.wav in Resources */ = {isa = PBXBuildFile; fileRef = 3B6CB0FF29054437008648E0 /* ファ.wav */; };
+		3B6CB10729054437008648E0 /* レ.wav in Resources */ = {isa = PBXBuildFile; fileRef = 3B6CB10029054437008648E0 /* レ.wav */; };
+		3B6CB10829054437008648E0 /* ミ.wav in Resources */ = {isa = PBXBuildFile; fileRef = 3B6CB10129054437008648E0 /* ミ.wav */; };
+		3B6CB10929054437008648E0 /* ラ.wav in Resources */ = {isa = PBXBuildFile; fileRef = 3B6CB10229054437008648E0 /* ラ.wav */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +56,13 @@
 		3B6CB0BA29051638008648E0 /* SimplePianoAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SimplePianoAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3B6CB0BE29051638008648E0 /* SimplePianoAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimplePianoAppUITests.swift; sourceTree = "<group>"; };
 		3B6CB0C029051638008648E0 /* SimplePianoAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimplePianoAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		3B6CB0FC29054437008648E0 /* ソ.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "ソ.wav"; sourceTree = "<group>"; };
+		3B6CB0FD29054437008648E0 /* シ.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "シ.wav"; sourceTree = "<group>"; };
+		3B6CB0FE29054437008648E0 /* ド.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "ド.wav"; sourceTree = "<group>"; };
+		3B6CB0FF29054437008648E0 /* ファ.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "ファ.wav"; sourceTree = "<group>"; };
+		3B6CB10029054437008648E0 /* レ.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "レ.wav"; sourceTree = "<group>"; };
+		3B6CB10129054437008648E0 /* ミ.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "ミ.wav"; sourceTree = "<group>"; };
+		3B6CB10229054437008648E0 /* ラ.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "ラ.wav"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +120,7 @@
 				3B6CB0A629051638008648E0 /* Assets.xcassets */,
 				3B6CB0A829051638008648E0 /* LaunchScreen.storyboard */,
 				3B6CB0AB29051638008648E0 /* Info.plist */,
+				3B6CB0CF29052D6E008648E0 /* Sounds */,
 			);
 			path = SimplePianoApp;
 			sourceTree = "<group>";
@@ -125,6 +140,20 @@
 				3B6CB0C029051638008648E0 /* SimplePianoAppUITestsLaunchTests.swift */,
 			);
 			path = SimplePianoAppUITests;
+			sourceTree = "<group>";
+		};
+		3B6CB0CF29052D6E008648E0 /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				3B6CB0FE29054437008648E0 /* ド.wav */,
+				3B6CB10029054437008648E0 /* レ.wav */,
+				3B6CB10129054437008648E0 /* ミ.wav */,
+				3B6CB0FF29054437008648E0 /* ファ.wav */,
+				3B6CB0FC29054437008648E0 /* ソ.wav */,
+				3B6CB10229054437008648E0 /* ラ.wav */,
+				3B6CB0FD29054437008648E0 /* シ.wav */,
+			);
+			path = Sounds;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -231,6 +260,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3B6CB10829054437008648E0 /* ミ.wav in Resources */,
+				3B6CB10529054437008648E0 /* ド.wav in Resources */,
+				3B6CB10429054437008648E0 /* シ.wav in Resources */,
+				3B6CB10629054437008648E0 /* ファ.wav in Resources */,
+				3B6CB10329054437008648E0 /* ソ.wav in Resources */,
+				3B6CB10729054437008648E0 /* レ.wav in Resources */,
+				3B6CB10929054437008648E0 /* ラ.wav in Resources */,
 				3B6CB0AA29051638008648E0 /* LaunchScreen.storyboard in Resources */,
 				3B6CB0A729051638008648E0 /* Assets.xcassets in Resources */,
 				3B6CB0A529051637008648E0 /* Main.storyboard in Resources */,
@@ -444,7 +480,7 @@
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationLandscapeLeft;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationLandscapeRight;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -472,7 +508,7 @@
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationLandscapeLeft;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationLandscapeRight;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
