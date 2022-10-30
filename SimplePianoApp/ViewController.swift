@@ -23,6 +23,12 @@ class ViewController: UIViewController {
         print(sender.titleLabel!.text ?? "nil")
         
         playSound(soundName: sender.titleLabel!.text ?? "nil")
+        sender.backgroundColor = UIColor.blue
+        sender.alpha = 0.3
+        DispatchQueue.main.asyncAfter(deadline: .now() + 0.2) {
+            sender.backgroundColor = UIColor.white
+            sender.alpha = 1.0
+        }
     }
     
     func playSound(soundName: String) {
